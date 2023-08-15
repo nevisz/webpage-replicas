@@ -19,11 +19,6 @@ a {
     text-decoration: none;
 }
 
-.main-grid {
-    display: grid;
-    grid-template-rows: 12fr 3fr;
-}
-
 .round-container {
     padding: 22px 10px;
     height: 45px;
@@ -46,7 +41,7 @@ a {
     position: fixed;
     margin-left: -50px;
     left: 50%;
-    bottom: 35px;
+    bottom: 9%;
 }
 
 #show-map img {
@@ -255,6 +250,41 @@ main section div p:nth-child(3), main section div p:nth-child(4), main section d
 
 footer {
     padding-left: 39px; padding-right: 39px;
-    height: 100vh;
-    background-color: whitesmoke;
+    width: 100%;
+    height: 7vh;
+    background-color: #FDFDFD;
+    border-top: 1.32px solid var(--grey-border);
+    font-size: 0.88rem;
+    position: fixed;
+    bottom: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+footer p a:hover, footer p a:focus {
+    text-decoration: underline;
+}
+
+footer p:first-child {
+    font-weight: 500;
+    text-align: left;
+}
+
+footer p:first-child, footer p:first-child a  {
+    color: #525252;
+}
+
+footer p:last-child {
+    font-weight: 600;
+    text-align: right;
+}
+
+footer p:last-child, footer p:last-child a  {
+    color: black;
 }
