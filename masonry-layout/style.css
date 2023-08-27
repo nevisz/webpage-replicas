@@ -12,6 +12,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* --- HEADER STYLING --- */
+
 header {
     background: white;
 }
@@ -47,6 +49,13 @@ nav h1 div:first-child {
 nav h1 div:last-child {
     font-weight: 400;
 }
+
+/* --- MASONRY LAYOUT STYLING --- */
+
+/* --- 
+3 grid columns, with section element as the grid items
+Each section item is also a flex container
+ --- */
 
 main {
     max-width: 1200px;
@@ -95,6 +104,8 @@ main section .tag a:hover, main section .tag a:focus {
     background-color: #dddddd;
     color: black;
 }
+
+/* --- MEDIA QUERIES --- */
 
 @media screen and (max-width: 960px) {
     main {
