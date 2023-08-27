@@ -31,6 +31,7 @@ nav {
 nav a {
     color: #333;
     text-decoration: none;
+    transition: color 0.4s;
 }
 
 nav a:hover, nav a:focus {
@@ -54,7 +55,7 @@ nav h1 div:last-child {
 
 /* --- 
 3 grid columns, with section element as the grid items
-Each section item is also a flex container
+Each section element is also a flex container
  --- */
 
 main {
@@ -98,6 +99,8 @@ main section .tag a {
     font-size: 0.9rem;
     text-decoration: none;
     border-radius: 0.1rem;
+
+    transition: color 0.5s;
 }
 
 main section .tag a:hover, main section .tag a:focus {
