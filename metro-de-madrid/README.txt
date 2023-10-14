@@ -3,8 +3,8 @@
 DESCRIPTION:
 This is a lab assignment I did for my CS elective where we had to style a responsive
 webpage using 2 approaches:
-  a. Using pure (Vanilla) CSS
-  b. Using the Bootstrap framework!
+a. Using pure (Vanilla) CSS
+b. Using the Bootstrap framework!
 
 IMAGE CREDITS:
 -Javier Munoz on Unsplash
