@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vanilla CSS vs. Bootstrap</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <main>
+            <h2>
+                <span>L</span>
+                <span>a</span>
+                <span>b</span>
+                <span>&nbsp;3 &#x2CE;&#x2CA;&#x2D7;</span>
+            </h2>
+            <p>
+                It was fun taking different approaches to responsive design!
+            </p>
+            <p>
+                Using Vanilla CSS, a problem I usually ran into was the overflow of a div or text element (headings or paragraphs) in its parent container. I wanted to make the width and height of certain elements responsive without changing them at fixed breakpoints, since doing so can give off a "blockish change" rather than a gradual one. Moreover, relying on relative units for sizing can be flawed in certain cases (element has too much whitespace on a small screen or too little whitespace on a large screen). Because of these reasons, I relied on clamp. I wasn't too familiar with the function, so it became a trial and error process that sometimes resulted in overflow.
+            </p>
+            <p>
+                Bootstrap definitely makes responsive design easier since it provides a lot of structure. Being able to use CSS utilities (breakpoints, flexbox behaviours, etc) by defining class names to an HTML element is convenient. It was just frustrating to use since I wasn't familiar with the framework as a whole. When I thought I understood certain fundamentals, things weren't displaying in the way I wanted them to. This usually occurred when I defined elements with a container class with a specified breakpoint. Though I prefer vanilla CSS for the creative freedom it gives me, I do like the breakpoint options given to Bootstrap containers.  
+            </p>
+        </main>
+
+        <nav>
+            <ul>
+                <li><a href="ver-a.html">Vanilla CSS Webpage</a></li>
+                <li><a href="ver-b.html">Bootstrap Webpage</a></li>
+            </ul>
+        </nav>
+
+    </body>
+</html>
